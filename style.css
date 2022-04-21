@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
 }
-
+#title{
+    margin: 10px;
+    text-align: center;
+}
 .color{
     border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
 }
 #blackColor{
     background-color: black;
@@ -18,3 +24,22 @@
 #greenColor{
     background-color: green;
 }
+#pixel-board {
+    width: 40px;
+    height: 40px;
+    display:inline;
+    margin: 20px;
+}
+div.colun{
+    display: inline-block;
+}
+div.pixel{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+div.line{
+    display: inline-block;
+}
+
