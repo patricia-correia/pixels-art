@@ -25,21 +25,22 @@
     background-color: green;
 }
 #pixel-board {
-    width: 40px;
+    margin-left:20px;
     height: 40px;
-    display:inline;
-    margin: 20px;
+    width: 40px;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 1px;
+
 }
-div.colun{
-    display: inline-block;
-}
-div.pixel{
+.pixel{
+    background-color: #fff;
     border: 1px solid black;
     width: 40px;
     height: 40px;
-    background-color: white;
+    
 }
-div.line{
-    display: inline-block;
-}
+    
+
 
