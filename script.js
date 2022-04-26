@@ -1,7 +1,11 @@
-/*
- let seletor = document.getElementsByClassName('selected');
-function selecaoDeCor(){
-    let corInicial = 'black';
-    seletor.style.backgroundColor = corInicial;
+function change(event){
+  
+    let selecionar = document.getElementsByClassName('selected')[0];
+    selecionar.classList.remove('selected');
+    event.target.classList.add('selected');
+    
 }
-    seletor.addEventListener('click', selecaoDeCor);*/
+    let changeSelector = document.querySelectorAll('.color');
+    for (let i of changeSelector){
+     i.addEventListener('click', change);
+}
