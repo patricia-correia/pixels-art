@@ -19,7 +19,12 @@ function fixedColor(event){
             index.addEventListener('click', fixedColor);
             
         }        
-        
+function buttonClear(){
+   let limpar = document.querySelectorAll('.pixel');
+    for( let indice of limpar){
+       indice.style.backgroundColor = 'white';
+    } 
 
-
-
+}        
+    let clearButton = document.getElementById('clear-board');
+    clearButton.addEventListener('click', buttonClear);
